@@ -1,19 +1,41 @@
+body {
+    background-color: black;
+}
 
+@font-face {
+    font-family: DS-Digital;
+    src: url(/workspace/Simple-Counter-by-Luis/src/js/component/DS-DIGII.TTF);
+}
 
 .bigCounter{
     text-align: center;
-    background: black;
+    font-family: DS-Digital;
+    margin-left: 360px;
+    margin-top: 500px;
+    
 }
 
 
 .bigCounter div{
     display: inline-block;
-    font-size: 60px;
-    line-height: 60px;
-    background: black;
-    color:white;
-    padding:10px;
-    margin:3px;
+    
+    line-height: 10px;
+    color:black;
+    
+}
+
+.sec {
+    font-size: 100px;
+}
+
+.minute {
+    font-size: 150px;
+}
+.hours {
+    font-size: 150px;
+}
+.e-hours {
+    font-size: 150px;
 }
 /* 
 
